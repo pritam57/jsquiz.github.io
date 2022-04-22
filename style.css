@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Poppins:wght@200;300&display=swap');
+*{
+    margin: 0pc;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    background-color: hsl(206, 92%, 94%);
+    font-size: large;
+}
+ 
+html{
+    font-size:85% ;
+} 
+#option5{
+    display: none;
+}
+.main {
+width: 500px;
+height: 400px;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+border: 5px solid #FFFF00;
+padding: 10px;
+align-items: center;
+background-color: aquamarine;
+
+
+}
+.innerdiv{
+    justify-items: center;
+    align-items: center;
+    padding-left: 60px;
+    padding-top: 20px;
+    background-color: aquamarine;
+    box-shadow: 0 1rem 1rem -- rgba(0,0,0,0.4);
+}
+#submit{
+    margin-left: 150px;
+    margin-top: 20px;
+   padding: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+   cursor: pointer;
+}
+input{
+    cursor: pointer;
+}
+#submit:hover{
+   background-color: aqua;
+   box-shadow: 2rem;
+}
+#submit:focus{
+    background-color:green;
+    box-shadow: 4rem;
+ }
+#showscore{
+    background-color:rebeccapurple;
+    margin-top: 3rem;
+    padding-left: 3rem 4rem;
+    box-shadow: 0 1rem 1rem -- rgba(0,0,0,0.4);
+    
+
+}
+.scorearea{
+    display: none;
+}
